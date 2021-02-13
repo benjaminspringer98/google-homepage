@@ -11,16 +11,34 @@ li {
     display: inline;
 }
 
+a {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.floatRight {
+    float: right;
+}
 /* nav start */
 
-
+.signInButton {
+    color: #fff;
+    height: 30px;
+    width: 65px;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    font-weight: bold;
+}
 /* nav end */
 
 /* main start */
 #googleLogo {
     display: block;
+    margin-top: 150px; 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
 }
 
 input[type="search"] {
