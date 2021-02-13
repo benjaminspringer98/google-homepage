@@ -8,20 +8,46 @@
 </head>
 <body>
     <nav>
-        <ul>
-           <li>About</li>
-           <li>Store</li> 
-           <li>Gmail</li> 
-           <li>Images</li> 
-           <li>(image missing)</li> 
-           <li>
-               <button>Sign In</button>
-           </li>  
+        <ul id="leftNavList">
+           <li><a href="#">About</a></li>
+           <li><a href="#">Store</a></li>  
+        </ul>
+        <ul id="rightNavList">
+            <li><a href="#">Gmail</a></li> 
+            <li><a href="#">Images</a></li> 
+            <li><a href="#">(image missing)</a></li> 
+            <li>
+                <button>Sign In</button>
+            </li> 
         </ul>
     </nav>
 
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    
-    <input type="search" id="searchBar">
+    <main>
+        <div>
+            <img id="googleLogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            height="92" width="272">
+        </div>
+
+        <div>
+            <form id="searchForm" action="#">
+                <label for="searchInput"></label>
+                <input type="search" id="searchInput" name="searchInput">
+                <input type="submit" class="mainButton" value="Google Search">
+                <input type="button" class="mainButton" value="I'm Feeling Lucky">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <ul id="footerList">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search works
+            </a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
