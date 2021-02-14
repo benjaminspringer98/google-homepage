@@ -16,7 +16,7 @@ a {
     font-size: 14px;
 }
 
-.floatRight {
+.navRightSide {
     float: right;
 }
 /* nav start */
@@ -35,10 +35,7 @@ a {
 /* main start */
 #googleLogo {
     display: block;
-    margin-top: 150px; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
+    margin: 150px auto 25px auto;
 }
 
 input[type="search"] {
@@ -55,9 +52,7 @@ input[type="search"] {
 
 .mainButton {
     display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
+    margin: 10px auto;
 }
 /* main end */
 
