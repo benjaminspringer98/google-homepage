@@ -36,6 +36,9 @@ a {
 #googleLogo {
     display: block;
     margin: 150px auto 25px auto;
+    max-width: 100%;
+    height: auto;
+
 }
 
 input[type="search"] {
@@ -44,6 +47,17 @@ input[type="search"] {
     margin-right: auto;
     border-radius: 20px;
     border: 1px solid lightgray;
+    width: 500px;
+    height: 40px;
+}
+
+input[type="search"]:hover {
+    box-shadow: 1px 1px 5px 1px lightgray;
+    border: none;
+}
+
+input[type="search"]:focus {
+    outline: 0 !important;
 }
 
 #searchForm {
@@ -52,8 +66,27 @@ input[type="search"] {
 
 .mainButton {
     display: inline;
-    margin: 10px auto;
+    margin: 25px 10px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    border-radius: 3px;
+    width: 140px;
+    height: 35px;
 }
+
+.mainButton:hover {
+    border: 1px solid lightgray;
+    color: black;
+    background-color: #f8f8f8;
+}
+
+.mainButton:focus {
+    outline: 0 !important;
+    border: 1px solid blue;
+}
+
 /* main end */
 
 /* footer start */
