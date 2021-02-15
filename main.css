@@ -45,10 +45,18 @@ input[type="search"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 40px;
+    padding-right: 50px;
     border-radius: 20px;
     border: 1px solid lightgray;
     width: 500px;
     height: 40px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Vector_search_icon.svg'),
+    url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg');
+    background-position: 15px, 450px 8px;
+    background-repeat: no-repeat;
+    background-size: 15px 15px, 20px 20px;
+    
 }
 
 input[type="search"]:hover {
