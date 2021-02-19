@@ -33,6 +33,11 @@ a {
 /* nav end */
 
 /* main start */
+
+main {
+    min-width: 500px;
+}
+
 #googleLogo {
     display: block;
     margin: 150px auto 25px auto;
