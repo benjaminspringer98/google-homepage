@@ -3,23 +3,34 @@ body {
     font-family: arial, sans-serif;
 }
 
+/* for footer and nav: */
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
-    display: inline;
+    float: left;
 }
 
-a {
-    margin: 10px;
+li a, a:visited {
+    display: block;
+    padding: 8px;
     font-size: 14px;
+    text-decoration: none;
+    color: #474747;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* nav start */
 .navRightSide {
     float: right;
 }
-/* nav start */
 
 .signInButton {
     color: #fff;
@@ -29,6 +40,7 @@ a {
     border: 1px solid #4285f4;
     border-radius: 3px;
     font-weight: bold;
+    margin-left: 10px;
 }
 /* nav end */
 
@@ -103,13 +115,16 @@ input[type="search"]:focus {
 
 /* footer start */
 footer {
-    position: fixed;  
+    position: absolute;  
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
     background-color: #f2f2f2;
+}
 
+.footerRightSide {
+    float: right;
 }
 /* footer end */
 
